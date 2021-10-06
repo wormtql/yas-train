@@ -45,68 +45,29 @@ def validate(net, validate_loader):
             x = x.to(device)
             predict = net.predict(x)
             # print(predict)
+            for i in range(len(label)):
+                pred = predict[i]
+                truth = label[i]
+                if pred != truth:
+                    print("pred:", pred, "truth:", truth)
             correct += sum([1 if predict[i] == label[i] else 0 for i in range(len(label))])
             total += len(label)
 
-    net.train()
     return correct / total
 
 
-def train():
+def main():
     net = Model(len(index_to_word)).to(device)
-    if config["pretrain"]:
-        net.load_state_dict(torch.load(f"models/{config['pretrain_name']}"))
+    net.load_state_dict(torch.load(f"models/model_training.pt"))
 
-    train_x = torch.load("data/train_x.pt")
-    train_y = torch.load("data/train_label.pt")
     validate_x = torch.load("data/validate_x.pt")
     validate_y = torch.load("data/validate_label.pt")
 
-    train_dataset = MyDataSet(train_x, train_y)
-    train_loader = DataLoader(train_dataset, shuffle=True, batch_size=config["batch_size"])
     validate_dataset = MyDataSet(validate_x, validate_y)
     validate_loader = DataLoader(validate_dataset, batch_size=config["batch_size"])
 
-    # optimizer = optim.SGD(net.parameters(), lr=0.01)
-    optimizer = optim.Adadelta(net.parameters())
-    ctc_loss = nn.CTCLoss(blank=0, reduction="mean", zero_infinity=True).to(device)
-
-    epoch = config["epoch"]
-    print_per = config["print_per"]
-    save_per = config["save_per"]
-    batch = 0
-    for epoch in range(epoch):
-        for x, label in train_loader:
-            optimizer.zero_grad()
-            target_vector, target_lengths = get_target(label)
-            target_vector, target_lengths = target_vector.to(device), target_lengths.to(device)
-            x = x.to(device)
-
-            batch_size = x.size(0)
-
-            y = net(x)
-
-            input_lengths = torch.full((batch_size,), 24, device=device, dtype=torch.long)
-            loss = ctc_loss(y, target_vector, input_lengths, target_lengths)
-            loss.backward()
-            optimizer.step()
-
-            if (batch + 1) % print_per == 0:
-                print(f"e{epoch} #{batch}: loss: {loss.item()}")
-
-            if (batch + 1) % save_per == 0:
-                rate = validate(net, validate_loader)
-                print(f"rate: {rate * 100}%")
-                torch.save(net.state_dict(), f"models/model_training.pt")
-
-            batch += 1
-
-    for x, label in validate_loader:
-        x = x.to(device)
-        predict = net.predict(x)
-        print("predict:     ", predict[:10])
-        print("ground truth:", label[:10])
-        break
+    rate = validate(net, validate_loader)
+    print(rate)
 
 
 class MyDataSet(Dataset):
@@ -124,3 +85,4 @@ class MyDataSet(Dataset):
         return x, label
 
 
+main()

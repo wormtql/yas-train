@@ -9,17 +9,18 @@ import torchvision.transforms as transforms
 
 from mona.nn.cnn import Block, MobileNetV1
 
-from mona.text.stat import random_stat, random_value
+# from mona.text.stat import random_stat, random_value
 from mona.datagen.datagen import generate_image
 from train import train
+from mona.config import config
 
 # parser = argparse.ArgumentParser(description="Genshin Impact Game Scanner")
 # gen_parser = parser.add_subparsers(dest="gen")
 
 
 if sys.argv[1] == "gen":
-    train_size = 10000
-    validate_size = 1000
+    train_size = config["train_size"]
+    validate_size = config["validate_size"]
 
     folder = pathlib.Path("data")
     if not folder.is_dir():
@@ -52,7 +53,7 @@ if sys.argv[1] == "gen":
     torch.save(y, "data/validate_label.pt")
 
     # generate sample
-    for i in range(10):
+    for i in range(50):
         im, text = generate_image()
         im.save(f"data/sample_{i}.png")
 elif sys.argv[1] == "train":

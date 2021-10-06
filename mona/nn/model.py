@@ -4,6 +4,8 @@ import torchvision.transforms as transforms
 import torch.nn.functional as F
 
 from .cnn import MobileNetV1
+from .mobile_net_v2 import MobileNetV2
+from .mobile_net_v3 import MobileNetV3Small
 
 from mona.text import index_to_word
 
@@ -14,13 +16,21 @@ class Model(nn.Module):
 
         hidden_size = 128
 
-        self.cnn = MobileNetV1(3)
-        self.gru = nn.GRU(
+        # self.cnn = MobileNetV1(3)
+        # self.cnn = MobileNetV2(in_channels=1)
+        self.cnn = MobileNetV3Small(in_channels=1, out_size=512)
+        # self.gru = nn.GRU(
+        #     input_size=512,
+        #     hidden_size=hidden_size,
+        #     bidirectional=True,
+        #     num_layers=2,
+        #     # dropout=0.25
+        # )
+        self.rnn = nn.LSTM(
             input_size=512,
             hidden_size=hidden_size,
             bidirectional=True,
             num_layers=2,
-            # dropout=0.2
         )
         self.embedding = nn.Linear(hidden_size * 2, lexicon_size)
         self.softmax = nn.LogSoftmax(2)
@@ -30,15 +40,11 @@ class Model(nn.Module):
         # convert CNN output to rnn input
         x = x.squeeze(2)
         x = x.permute(2, 0, 1)
-        y, _ = self.gru(x)
+        y, _ = self.rnn(x)
         y = self.embedding(y)
         y = F.log_softmax(y, dim=2)
 
         return y
-
-    # def backward_hook(self, module, grad_input, grad_output):
-    #     for g in grad_input:
-    #         g[g != g] = 0
 
     def predict_pil(self, x):
         x = transforms.ToTensor()(x)
