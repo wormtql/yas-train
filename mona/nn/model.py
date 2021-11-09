@@ -19,18 +19,19 @@ class Model(nn.Module):
         # self.cnn = MobileNetV1(3)
         # self.cnn = MobileNetV2(in_channels=1)
         self.cnn = MobileNetV3Small(in_channels=1, out_size=512)
-        # self.gru = nn.GRU(
+        # self.rnn = nn.GRU(
         #     input_size=512,
         #     hidden_size=hidden_size,
         #     bidirectional=True,
         #     num_layers=2,
-        #     # dropout=0.25
+        #     dropout=0.2
         # )
         self.rnn = nn.LSTM(
             input_size=512,
             hidden_size=hidden_size,
             bidirectional=True,
             num_layers=2,
+            dropout=0.2,
         )
         self.embedding = nn.Linear(hidden_size * 2, lexicon_size)
         self.softmax = nn.LogSoftmax(2)

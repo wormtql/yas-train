@@ -17,7 +17,7 @@ def normalize(arr, auto_inverse=True):
     # arr[arr < 0.6] = 0
     if auto_inverse and arr[-1, -1] > 0.5:
         arr = 1 - arr
-    arr[arr < 0.6] = 0
+    # arr[arr < 0.6] = 0
     # if auto_inverse:
     #     arr -= arr[-1, -1]
     #     arr = arr.clip(min=0)
@@ -79,6 +79,8 @@ def pre_process(im):
     # im.show()
     arr = resize_to_height(arr)
     arr = pad_to_width(arr)
+    arr[arr < 0.6] = 0
+    arr[arr >= 0.6] = 1
 
     im = Image.fromarray(np.uint8(arr * 255))
     return im

@@ -10,7 +10,7 @@ from mona.config import config
 from mona.datagen.pre_process import pre_process
 
 
-fonts = [ImageFont.truetype("./assets/genshin.ttf", i) for i in range(10, 40)]
+fonts = [ImageFont.truetype("./assets/genshin.ttf", i) for i in range(15, 40)]
 
 
 def random_level():
@@ -20,23 +20,17 @@ def random_level():
 flag_ac = 0
 def random_artifact_count():
     global flag_ac
+    temp = f"圣遗物 {flag_ac}/1500"
     flag_ac += 1
-    return f"{flag_ac - 1}/1000"
+    if flag_ac >= 1501:
+        flag_ac = 0
+    return temp
 
 
 random_funcs = [random_artifact_name, random_main_stat_name, random_main_stat_value,
                 random_sub_stat, random_level, random_equip, random_artifact_count]
-random_weights = [0.1, 0.02, 0.15,
-                  0.67, 0.02, 0.02, 0.02]
-
-
-font_colors = [(192, 175, 168), (255, 255, 255), (73, 83, 102)]
-background_colors = [
-    (133, 96, 79), (188, 105, 50), (57, 68, 79), (236, 229, 216), (161, 113, 78), (112, 87, 83),
-    (117, 99, 154), (80, 109, 139), (73, 105, 102), (91, 97, 109)
-]
-
-width = 256
+random_weights = [0.1, 0.05, 0.15,
+                  0.64, 0.02, 0.02, 0.02]
 
 
 def rand_color_1():
@@ -72,14 +66,6 @@ def random_text():
         k=1
     )
     return func[0]()
-
-
-def resize_to_32(im):
-    w, h = im.size
-    ratio = 32 / h
-    im = im.resize((width, 32))
-
-    return im
 
 
 def generate_image():

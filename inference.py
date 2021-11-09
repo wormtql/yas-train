@@ -28,13 +28,15 @@ def predict(image_name):
     return pred[0]
 
 
-# names = [
-#     "1.jpg", "2.png", "3.png", "4.png", "5.png",
-#     "6.png", "7.png", "8.png", "9.png", "10.png",
-#     "11.png", "12.png", "13.png", "14.jpg", "15.png",
-#     "16.jpg", "17.png", "sample_0.png",
-# ]
-names = ["25.png"]
+names = [
+    "1.jpg", "2.png", "3.png", "4.png", "5.png",
+    "6.png", "7.png", "8.png", "9.png", "10.png",
+    "11.png", "12.png", "13.png", "14.jpg", "15.png",
+    "16.jpg", "17.png", "18.png", "19.png", "20.png",
+    "21.png", "22.png", "23.png", "24.png", "25.png",
+    "sample_0.png",
+]
+# names = ["25.png"]
 
 for name in names:
     result = predict(name)
