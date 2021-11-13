@@ -114,7 +114,7 @@ def train():
             cur_time = datetime.datetime.now()
 
             if (batch + 1) % print_per == 0:
-                tput = batch_size * print_per / (cur_time - start_time).total_seconds()
+                tput = batch_size * batch / (cur_time - start_time).total_seconds()
                 print(f"{cur_time} e{epoch} #{batch} tput: {tput} loss: {loss.item()}")
 
             if (batch + 1) % save_per == 0:
