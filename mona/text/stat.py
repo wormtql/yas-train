@@ -112,6 +112,20 @@ main_stat_keys = [
     "FIGHT_PROP_FIRE_ADD_HURT"
 ]
 
+# 副词条大致范围，超过理论值也没问题
+sub_stat_range = {
+    "FIGHT_PROP_CRITICAL_HURT": (0.001, 0.5),
+    "FIGHT_PROP_CRITICAL": (0.001, 0.25),
+    "FIGHT_PROP_HP": (10, 1800),
+    "FIGHT_PROP_HP_PERCENT": (0.001, 0.4), 
+    "FIGHT_PROP_ATTACK": (1, 120), 
+    "FIGHT_PROP_ATTACK_PERCENT": (0.001, 0.4), 
+    "FIGHT_PROP_DEFENSE_PERCENT": (0.001, 0.5), 
+    "FIGHT_PROP_DEFENSE": (1, 150), 
+    "FIGHT_PROP_CHARGE_EFFICIENCY": (0.001, 0.4), 
+    "FIGHT_PROP_ELEMENT_MASTERY": (1, 150), 
+}
+
 with open("./assets/ReliquaryLevelExcelConfigData.json") as f:
     string = f.read()
     main_stat_data = json.loads(string)
@@ -186,18 +200,8 @@ def random_main_stat_value():
 
 def random_sub_stat():
     key = random.choice(sub_stat_keys)
-    star = random.choices(population=[1, 2, 3, 4, 5], weights=[0.05, 0.05, 0.2, 0.2, 0.5], k=1)[0]
-    r = sub_stat_map[key][star]
-
-    if star == 5:
-        times = random.randint(1, 6)
-    else:
-        times = random.randint(1, 5)
-
-    value = 0
-    for _ in range(times):
-        value += random.choice(r)
-
+    # 改成生成连续数值。因为原版数据有误差，生成不出777、299等数值
+    value = random.uniform(sub_stat_range[key][0], sub_stat_range[key][1])
     value_str = format_value(key, value)
     chs = stat_info[key]["chs"]
 
