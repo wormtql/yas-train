@@ -9,6 +9,7 @@ from mona.nn.model import Model
 from mona.datagen.datagen import generate_image
 from mona.config import config
 
+import datetime
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -57,15 +58,30 @@ def train():
     if config["pretrain"]:
         net.load_state_dict(torch.load(f"models/{config['pretrain_name']}"))
 
-    train_x = torch.load("data/train_x.pt")
-    train_y = torch.load("data/train_label.pt")
-    validate_x = torch.load("data/validate_x.pt")
-    validate_y = torch.load("data/validate_label.pt")
+    data_aug_transform = transforms.Compose([
+        transforms.RandomApply([
+            transforms.RandomChoice([
+                transforms.GaussianBlur(1, 1),
+                transforms.GaussianBlur(3, 3),
+                transforms.GaussianBlur(5, 5),
+                # transforms.GaussianBlur(7,7),
+            ])], p=0.5),
 
-    train_dataset = MyDataSet(train_x, train_y)
-    train_loader = DataLoader(train_dataset, shuffle=True, batch_size=config["batch_size"])
-    validate_dataset = MyDataSet(validate_x, validate_y)
-    validate_loader = DataLoader(validate_dataset, batch_size=config["batch_size"])
+        transforms.RandomApply([
+            transforms.RandomCrop(size=(31, 383)),
+            transforms.Resize((32, 384)),
+            ], p=0.5),
+
+        transforms.RandomApply([AddGaussianNoise(mean=0, std=1/255)], p=0.5),
+    ])
+
+    train_dataset = MyOnlineDataSet(config['train_size']) if config["online_train"] else MyDataSet(
+        torch.load("data/train_x.pt"), torch.load("data/train_label.pt"))
+    validate_dataset = MyOnlineDataSet(config['validate_size']) if config["online_val"] else MyDataSet(
+        torch.load("data/validate_x.pt"), torch.load("data/validate_label.pt"))
+
+    train_loader = DataLoader(train_dataset, shuffle=True, num_workers=config["dataloader_workers"], batch_size=config["batch_size"],)
+    validate_loader = DataLoader(validate_dataset, num_workers=config["dataloader_workers"], batch_size=config["batch_size"])
 
     # optimizer = optim.SGD(net.parameters(), lr=0.01)
     optimizer = optim.Adadelta(net.parameters())
@@ -75,12 +91,16 @@ def train():
     print_per = config["print_per"]
     save_per = config["save_per"]
     batch = 0
+    start_time = datetime.datetime.now()
     for epoch in range(epoch):
         for x, label in train_loader:
             optimizer.zero_grad()
             target_vector, target_lengths = get_target(label)
             target_vector, target_lengths = target_vector.to(device), target_lengths.to(device)
             x = x.to(device)
+
+            # Data Augmentation in batch
+            x = data_aug_transform(x)
 
             batch_size = x.size(0)
 
@@ -91,13 +111,19 @@ def train():
             loss.backward()
             optimizer.step()
 
+            cur_time = datetime.datetime.now()
+
             if (batch + 1) % print_per == 0:
-                print(f"e{epoch} #{batch}: loss: {loss.item()}")
+                tput = batch_size * print_per / (cur_time - start_time).total_seconds()
+                print(f"{cur_time} e{epoch} #{batch} tput: {tput} loss: {loss.item()}")
 
             if (batch + 1) % save_per == 0:
+                print("Validating and checkpointing")
                 rate = validate(net, validate_loader)
-                print(f"rate: {rate * 100}%")
+                print(f"{cur_time} rate: {rate * 100}%")
                 torch.save(net.state_dict(), f"models/model_training.pt")
+                if rate == 1:
+                    torch.save(net.state_dict(), f"models/model_acc100-epoch{epoch}.pt")
 
             batch += 1
 
@@ -123,4 +149,27 @@ class MyDataSet(Dataset):
 
         return x, label
 
+class AddGaussianNoise(object):
+    def __init__(self, mean=0., std=1.):
+        self.std = std
+        self.mean = mean
 
+    def __call__(self, tensor):
+        return tensor + torch.randn(tensor.size(), device=device) * self.std + self.mean
+
+    def __repr__(self):
+        return self.__class__.__name__ + '(mean={0}, std={1})'.format(self.mean, self.std)
+
+
+class MyOnlineDataSet(Dataset):
+    def __init__(self, size: int):
+        self.size = size
+
+    def __len__(self):
+        return self.size
+
+    def __getitem__(self, index):
+        # Generate data online
+        im, text = generate_image()
+        tensor = transforms.ToTensor()(im)
+        return tensor, text
