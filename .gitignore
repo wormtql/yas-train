@@ -1,5 +1,6 @@
 data/
 models/
+samples/
 .idea/
 __pycache__/
 **/__pacache__/

@@ -63,7 +63,7 @@ def to_numpy(im):
     return arr
 
 
-def pre_process(im):
+def pre_process(im, thr=0.6):
     arr = to_numpy(im)
     arr = to_gray(arr)
     # arr = binarization(arr)
@@ -79,8 +79,8 @@ def pre_process(im):
     # im.show()
     arr = resize_to_height(arr)
     arr = pad_to_width(arr)
-    arr[arr < 0.6] = 0
-    arr[arr >= 0.6] = 1
+    arr[arr < thr] = 0
+    arr[arr >= thr] = 1
 
     im = Image.fromarray(np.uint8(arr * 255))
     return im
