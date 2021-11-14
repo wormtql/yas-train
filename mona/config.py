@@ -15,6 +15,6 @@ config = {
     # Set according to your CPU
     "dataloader_workers": 4,
     # Generate data online for train/val
-    "online_train": True,
-    "online_val": True,
+    "online_train": False,
+    "online_val": False,
 }
