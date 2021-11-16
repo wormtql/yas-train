@@ -90,6 +90,7 @@ if __name__ == '__main__':
     print(f"{datetime.datetime.now()} Saving training data")
     torch.save(x, "data/train_x.pt")
     torch.save(y, "data/train_label.pt")
+    del x, y
 
     print(f"{datetime.datetime.now()} Generating validation data")
     x, y = gen_dataset_with_label(size=validate_size, threads=threads)
