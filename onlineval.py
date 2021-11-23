@@ -15,6 +15,7 @@ from PIL import Image
 
 import sys
 import time
+import argparse
 
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -35,16 +36,22 @@ class MyOnlineDataSet(Dataset):
 
 if __name__ == "__main__":
     net = Model(len(index_to_word)).to(device)
-    model_name = 'model_training.pt'
+
+    parser = argparse.ArgumentParser(
+        description='Validate a model using online generated data from datagen')
+    parser.add_argument('model_file', type=str,
+                        help='The model file. e.g. model_training.pt')
+
+    args = parser.parse_args()
+    model_file_path = args.model_file
+
+    print(f"Validating {model_file_path}")
     net.load_state_dict(torch.load(
-        f'models/{model_name}', map_location=torch.device(device)))
+        model_file_path, map_location=torch.device(device)))
 
     batch_size = 32
-    max_plot_incorrect_sample = 10
-
-    num_samples = 10000000
-    if len(sys.argv) > 1:
-        num_samples = int(sys.argv[1])
+    max_plot_incorrect_sample = 0
+    num_samples = 1000000
 
     validate_dataset = MyOnlineDataSet(num_samples)
     validate_loader = DataLoader(
@@ -69,7 +76,7 @@ if __name__ == "__main__":
                         arr = x.to('cpu')[i].squeeze()
                         im = Image.fromarray(np.uint8(arr * 255))
                         # im.show()
-                        im.save(f"err-sample-{model_name}-id{total+i}.png")
+                        im.save(f"err-sample-id{total+i}.png")
 
             # Stats
             err += sum([0 if predict[i] == label[i]
@@ -79,4 +86,4 @@ if __name__ == "__main__":
             print(str.format("Tput {} sample/s, err rate {:.2e}. Tested {}, err {}",
                              tput, err / total, total, err), end='\r')
 
-    print(f"\n{model_name} total {total} err {err}")
+    print(f"\nValidation result: {model_file_path} total {total} err {err}")
