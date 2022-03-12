@@ -27,6 +27,10 @@ python main.py train
 如果要加速大数据集的生成，可以使用`pargen.py`
 
 如果想使用大数据集验证（又不想大量占用硬盘和内存），可以使用`onlineval.py`来进行在线验证
+
+### 炼丹心得
+请移步 [TIPS.md](TIPS.md)
+
 ## 反馈
 - Issue
 - QQ群：801106595
