@@ -11,7 +11,8 @@ from mona.text import word_to_index, index_to_word
 from mona.datagen.datagen import generate_image
 
 
-name = "model_training.pt"
+# name = "model_training.pt"
+name = "model_acc100-epoch15.pt"
 onnx_name = name.rsplit(".", 2)[0] + ".onnx"
 net = Model(len(word_to_index))
 
@@ -23,6 +24,7 @@ x, label = generate_image()
 x = to_tensor(x)
 x.unsqueeze_(0) # (1, 3, 32, width)
 y = net(x)      # (width / 8, 1, lexicon_size)
+print(x.size(), y.size())
 
 torch.onnx.export(
     net,

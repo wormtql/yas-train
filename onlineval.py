@@ -50,7 +50,7 @@ if __name__ == "__main__":
         model_file_path, map_location=torch.device(device)))
 
     batch_size = 32
-    max_plot_incorrect_sample = 0
+    max_plot_incorrect_sample = 10
     num_samples = 1000000
 
     validate_dataset = MyOnlineDataSet(num_samples)
@@ -64,11 +64,13 @@ if __name__ == "__main__":
     with torch.no_grad():
         for x, label in validate_loader:
             x = x.to(device)
+            # print(label)
             predict = net.predict(x)
             for i in range(len(label)):
                 pred = predict[i]
                 truth = label[i]
 
+                # if True:
                 if pred != truth:
                     print(f"\033[2K\r==== pred: {pred}, truth: {truth} ====")
                     # Save the incorrect samples
@@ -76,7 +78,7 @@ if __name__ == "__main__":
                         arr = x.to('cpu')[i].squeeze()
                         im = Image.fromarray(np.uint8(arr * 255))
                         # im.show()
-                        im.save(f"err-sample-id{total+i}.png")
+                        im.save(f"samples/err-sample-id{total+i}.png")
 
             # Stats
             err += sum([0 if predict[i] == label[i]
