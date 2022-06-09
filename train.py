@@ -6,8 +6,11 @@ import torchvision.transforms as transforms
 
 from mona.text import index_to_word, word_to_index
 from mona.nn.model import Model
+from mona.nn.svtr import SVTRNet
 from mona.datagen.datagen import generate_image
 from mona.config import config
+from mona.nn import predict as predict_net
+from mona.nn.model2 import Model2
 
 import datetime
 
@@ -44,7 +47,7 @@ def validate(net, validate_loader):
     with torch.no_grad():
         for x, label in validate_loader:
             x = x.to(device)
-            predict = net.predict(x)
+            predict = predict_net(net, x)
             # print(predict)
             correct += sum([1 if predict[i] == label[i] else 0 for i in range(len(label))])
             total += len(label)
@@ -54,7 +57,14 @@ def validate(net, validate_loader):
 
 
 def train():
-    net = Model(len(index_to_word)).to(device)
+    # net = Model(len(index_to_word)).to(device)
+    # net = Model2(len(index_to_word), 1, hidden_channels=128, num_heads=4).to(device)
+    net = Model2(len(index_to_word), 1).to(device)
+    # net = SVTRNet(
+    #     img_size=(32, 384),
+    #     in_channels=1,
+    #     out_channels=len(index_to_word)
+    # ).to(device)
     if config["pretrain"]:
         net.load_state_dict(torch.load(f"models/{config['pretrain_name']}"))
 
@@ -129,7 +139,8 @@ def train():
 
     for x, label in validate_loader:
         x = x.to(device)
-        predict = net.predict(x)
+        # predict = net.predict(x)
+        predict = predict_net(net, x)
         print("predict:     ", predict[:10])
         print("ground truth:", label[:10])
         break

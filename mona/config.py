@@ -1,10 +1,10 @@
 config = {
     "height": 32,
     "train_width": 384,
-    "batch_size": 32,
+    "batch_size": 128,
     "epoch": 50,
     "print_per": 100,
-    "save_per": 300,
+    "save_per": 600,
 
     "train_size": 200000,
     "validate_size": 10000,

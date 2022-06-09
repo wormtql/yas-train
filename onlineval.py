@@ -7,8 +7,10 @@ import torchvision.transforms as transforms
 
 from mona.text import index_to_word
 from mona.nn.model import Model
+from mona.nn.model2 import Model2
 from mona.datagen.datagen import generate_image
 from mona.config import config
+from mona.nn import predict as predict_net
 
 import numpy as np
 from PIL import Image
@@ -35,7 +37,9 @@ class MyOnlineDataSet(Dataset):
 
 
 if __name__ == "__main__":
-    net = Model(len(index_to_word)).to(device)
+    # net = Model(len(index_to_word)).to(device)
+    net = Model2(len(index_to_word), 1).to(device)
+    # net = Model2(len(index_to_word), 1, hidden_channels=128, num_heads=4).to(device)
 
     parser = argparse.ArgumentParser(
         description='Validate a model using online generated data from datagen')
@@ -65,7 +69,7 @@ if __name__ == "__main__":
         for x, label in validate_loader:
             x = x.to(device)
             # print(label)
-            predict = net.predict(x)
+            predict = predict_net(net, x)
             for i in range(len(label)):
                 pred = predict[i]
                 truth = label[i]
