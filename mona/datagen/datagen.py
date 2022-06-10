@@ -23,11 +23,16 @@ def random_artifact_count():
     return f"圣遗物 {flag_ac}/1500"
 
 
+def random_number():
+    n = random.randint(0, 1000000000)
+    return f"{n}"
+
+
 random_funcs = [random_artifact_name, random_main_stat_name, random_main_stat_value,
-                random_sub_stat, random_level, random_equip, random_artifact_count]
+                random_sub_stat, random_level, random_equip, random_artifact_count, random_number]
 # 加大random_artifact_count的权重，因为连续数字识别是CRNN模型的难点，这对于副词条识别也有帮助。
 random_weights = [0.1, 0.05, 0.15,
-                  0.64, 0.02, 0.02, 0.1]
+                  0.64, 0.02, 0.02, 0.1, 0.2]
 
 
 def rand_color_1():

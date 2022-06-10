@@ -100,7 +100,8 @@ class Model2(nn.Module):
 
     def forward(self, x):
         x = self.cnn(x)
-        x = x.squeeze().permute((0, 2, 1))
+        # print(x.shape)
+        x = x.squeeze(2).permute((0, 2, 1))
         x = self.pe(x)
         x = self.linear1(x)
         x = self.blocks(x)

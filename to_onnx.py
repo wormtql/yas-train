@@ -7,14 +7,16 @@ import numpy as np
 import json
 
 from mona.nn.model import Model
+from mona.nn.model2 import Model2
 from mona.text import word_to_index, index_to_word
 from mona.datagen.datagen import generate_image
 
 
 # name = "model_training.pt"
-name = "model_acc100-epoch15.pt"
+name = "model_acc100-epoch18.pt"
 onnx_name = name.rsplit(".", 2)[0] + ".onnx"
-net = Model(len(word_to_index))
+# net = Model(len(word_to_index))
+net = Model2(len(word_to_index), in_channels=1)
 
 net.load_state_dict(torch.load(f"models/{name}"))
 net.eval()
@@ -22,6 +24,7 @@ net.eval()
 to_tensor = T.ToTensor()
 x, label = generate_image()
 x = to_tensor(x)
+print(x.shape)
 x.unsqueeze_(0) # (1, 3, 32, width)
 y = net(x)      # (width / 8, 1, lexicon_size)
 print(x.size(), y.size())

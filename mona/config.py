@@ -13,7 +13,7 @@ config = {
     "pretrain_name": "chs_all.pt",
 
     # Set according to your CPU
-    "dataloader_workers": 0,
+    "dataloader_workers": 2,
     # Generate data online for train/val
     "online_train": True,
     "online_val": True,
