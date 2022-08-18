@@ -37,7 +37,9 @@ class MyOnlineDataSet(Dataset):
 
 
 if __name__ == "__main__":
+    # crnn
     # net = Model(len(index_to_word)).to(device)
+    # svtr
     net = Model2(len(index_to_word), 1).to(device)
     # net = Model2(len(index_to_word), 1, hidden_channels=128, num_heads=4).to(device)
 

@@ -57,9 +57,9 @@ def validate(net, validate_loader):
 
 
 def train():
-    # net = Model(len(index_to_word)).to(device)
+    net = Model(len(index_to_word)).to(device)
     # net = Model2(len(index_to_word), 1, hidden_channels=128, num_heads=4).to(device)
-    net = Model2(len(index_to_word), 1).to(device)
+    # net = Model2(len(index_to_word), 1).to(device)
     # net = SVTRNet(
     #     img_size=(32, 384),
     #     in_channels=1,

@@ -2,7 +2,13 @@ import random
 
 # Taveller is not included
 characters_name = [
+    "妮露",
+    "柯莱",
+    "多莉",
+    "提纳里",
+    "久岐忍",
     "鹿野院平藏",
+    "夜兰",
     "瑶瑶",
     "神里绫人",
     "云堇",
