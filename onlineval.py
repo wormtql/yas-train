@@ -56,7 +56,7 @@ if __name__ == "__main__":
         model_file_path, map_location=torch.device(device)))
 
     batch_size = 32
-    max_plot_incorrect_sample = 10
+    max_plot_incorrect_sample = 100
     num_samples = 1000000
 
     validate_dataset = MyOnlineDataSet(num_samples)
