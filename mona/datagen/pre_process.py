@@ -13,6 +13,9 @@ def normalize(arr, auto_inverse=True):
     arr -= np.min(arr)
     # arr -= arr[-1, -1]
     # arr = arr.clip(min=0)
+    m = np.max(arr)
+    if m == 0:
+        return arr
     arr /= np.max(arr)
     # arr[arr < 0.6] = 0
     if auto_inverse and arr[-1, -1] > 0.5:
