@@ -13,7 +13,7 @@ from mona.datagen.datagen import generate_image
 
 
 # name = "model_training.pt"
-name = "model_acc100-epoch45.pt"
+name = "model_acc100-epoch49.pt"
 onnx_name = name.rsplit(".", 2)[0] + ".onnx"
 # net = Model(len(word_to_index))
 net = Model2(len(word_to_index), in_channels=1)
