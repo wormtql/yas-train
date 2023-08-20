@@ -20,7 +20,7 @@ def random_level():
 def random_artifact_count():
     # Random here, for online learning
     flag_ac = random.randint(0, 1500)
-    return f"圣遗物 {flag_ac}/1500"
+    return f"圣遗物 {flag_ac}/1800"
 
 
 def random_number():
