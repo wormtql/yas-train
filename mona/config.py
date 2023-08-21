@@ -17,4 +17,7 @@ config = {
     # Generate data online for train/val
     "online_train": True,
     "online_val": True,
+
+    # Select model type: Genshin or StarRail
+    "model_type": "Genshin"
 }

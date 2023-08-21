@@ -1,7 +1,8 @@
 import random
+from ..config import config
 
 # Taveller is not included
-characters_name = [
+characters_name_genshin = [
     "珐露珊",
     "流浪者",
     "纳西妲",
@@ -77,6 +78,40 @@ characters_name = [
     "娜维娅",
 ]
 
+# Trailblazer is not included
+characters_name_starrail = [
+    '丹恒',
+    '艾丝妲',
+    '三月七',
+    '虎克',
+    '佩拉',
+    '桑博',
+    '希露瓦',
+    '娜塔莎',
+    '素裳',
+    '阿兰',
+    '黑塔',
+    '青雀',
+    '停云',
+    '驭空',
+    '卢卡',
+    '布洛妮娅',
+    '希儿',
+    '瓦尔特',
+    '克拉拉',
+    '杰帕德',
+    '姬子',
+    '白露',
+    '彦卿',
+    '景元',
+    '银狼',
+    '罗刹',
+    '刃',
+    '卡芙卡',
+]
 
 def random_equip():
-    return random.choice(characters_name) + "已装备"
+    if config["model_type"] == "Genshin":
+        return random.choice(characters_name_genshin) + "已装备"
+    elif config["model_type"] == "StarRail":
+        return random.choice(characters_name_starrail) + "装备中"
