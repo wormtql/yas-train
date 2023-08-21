@@ -1,0 +1,4152 @@
+[
+    {
+        "Rank": 1,
+        "Level": 1,
+        "Exp": 0,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0
+            }
+        ]
+    },
+    {
+        "Rank": 1,
+        "Level": 2,
+        "Exp": 0,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0
+            }
+        ]
+    },
+    {
+        "Rank": 1,
+        "Level": 3,
+        "Exp": 0,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0
+            }
+        ]
+    },
+    {
+        "Rank": 1,
+        "Level": 4,
+        "Exp": 0,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0
+            }
+        ]
+    },
+    {
+        "Rank": 2,
+        "Level": 1,
+        "Exp": 170,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0
+            }
+        ]
+    },
+    {
+        "Rank": 2,
+        "Level": 2,
+        "Exp": 240,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0
+            }
+        ]
+    },
+    {
+        "Rank": 2,
+        "Level": 3,
+        "Exp": 310,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0
+            }
+        ]
+    },
+    {
+        "Rank": 2,
+        "Level": 4,
+        "Exp": 410,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0
+            }
+        ]
+    },
+    {
+        "Rank": 2,
+        "Level": 5,
+        "Exp": 500,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0
+            }
+        ]
+    },
+    {
+        "Rank": 2,
+        "Level": 6,
+        "Exp": 620,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0
+            }
+        ]
+    },
+    {
+        "Rank": 2,
+        "Level": 7,
+        "Exp": 0,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0
+            }
+        ]
+    },
+    {
+        "Rank": 3,
+        "Level": 1,
+        "Exp": 280,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 67.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.041
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 33.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.041
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.051
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 2.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.031
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.062
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.062
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.033
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.018
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.041
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.037
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.037
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.037
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.037
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.037
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.037
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.037
+            }
+        ]
+    },
+    {
+        "Rank": 3,
+        "Level": 2,
+        "Exp": 400,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 91.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.055
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 45.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.055
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.069
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 3.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.041
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.083
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.083
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.044
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.025
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.055
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.05
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.05
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.05
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.05
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.05
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.05
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.05
+            }
+        ]
+    },
+    {
+        "Rank": 3,
+        "Level": 3,
+        "Exp": 520,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 115.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.07
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 57.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.07
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.088
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 4.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.052
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.105
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.105
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.056
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.031
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.07
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.063
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.063
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.063
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.063
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.063
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.063
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.063
+            }
+        ]
+    },
+    {
+        "Rank": 3,
+        "Level": 4,
+        "Exp": 680,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 138.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.085
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 69.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.085
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.106
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 5.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.063
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.127
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.127
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.068
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.038
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.085
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.076
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.076
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.076
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.076
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.076
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.076
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.076
+            }
+        ]
+    },
+    {
+        "Rank": 3,
+        "Level": 5,
+        "Exp": 840,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 162.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.099
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 81.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.099
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.124
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 6.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.074
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.149
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.149
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.079
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.044
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.099
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.089
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.089
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.089
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.089
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.089
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.089
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.089
+            }
+        ]
+    },
+    {
+        "Rank": 3,
+        "Level": 6,
+        "Exp": 1080,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 186.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.114
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 93.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.114
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.142
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 7.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.085
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.171
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.171
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.091
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.051
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.114
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.102
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.102
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.102
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.102
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.102
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.102
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.102
+            }
+        ]
+    },
+    {
+        "Rank": 3,
+        "Level": 7,
+        "Exp": 1320,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 209.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.128
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 104.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.128
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.16
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 8.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.096
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.192
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.192
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.102
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.057
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.128
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.115
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.115
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.115
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.115
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.115
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.115
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.115
+            }
+        ]
+    },
+    {
+        "Rank": 3,
+        "Level": 8,
+        "Exp": 1620,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 233.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.143
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 116.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.143
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.178
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 9.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.107
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.214
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.214
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.114
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.064
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.143
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.128
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.128
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.128
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.128
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.128
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.128
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.128
+            }
+        ]
+    },
+    {
+        "Rank": 3,
+        "Level": 9,
+        "Exp": 2060,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 257.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.157
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 128.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.157
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.196
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 10.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.118
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.236
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.236
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.126
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.07
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.157
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.141
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.141
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.141
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.141
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.141
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.141
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.141
+            }
+        ]
+    },
+    {
+        "Rank": 3,
+        "Level": 10,
+        "Exp": 0,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 281.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.172
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 140.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.172
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.215
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 11.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.129
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.258
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.258
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.137
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.077
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.172
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.154
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.154
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.154
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.154
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.154
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.154
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.154
+            }
+        ]
+    },
+    {
+        "Rank": 4,
+        "Level": 1,
+        "Exp": 420,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 90.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.055
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 45.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.055
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.069
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 3.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.041
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.082
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.082
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.044
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.024
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.055
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.049
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.049
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.049
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.049
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.049
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.049
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.049
+            }
+        ]
+    },
+    {
+        "Rank": 4,
+        "Level": 2,
+        "Exp": 600,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 121.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.074
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 60.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.074
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.093
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 4.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.055
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.111
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.111
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.059
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.033
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.074
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.067
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.067
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.067
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.067
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.067
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.067
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.067
+            }
+        ]
+    },
+    {
+        "Rank": 4,
+        "Level": 3,
+        "Exp": 780,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 153.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.094
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 76.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.094
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.117
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 5.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.07
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.141
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.141
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.075
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.042
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.094
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.084
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.084
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.084
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.084
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.084
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.084
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.084
+            }
+        ]
+    },
+    {
+        "Rank": 4,
+        "Level": 4,
+        "Exp": 1020,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 185.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.113
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 92.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.113
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.141
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 6.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.085
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.17
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.17
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.09
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.051
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.113
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.102
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.102
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.102
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.102
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.102
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.102
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.102
+            }
+        ]
+    },
+    {
+        "Rank": 4,
+        "Level": 5,
+        "Exp": 1200,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 216.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.132
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 108.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.132
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.165
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 7.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.099
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.199
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.199
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.106
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.059
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.132
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.119
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.119
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.119
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.119
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.119
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.119
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.119
+            }
+        ]
+    },
+    {
+        "Rank": 4,
+        "Level": 6,
+        "Exp": 1480,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 248.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.152
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 124.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.152
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.19
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 8.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.114
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.228
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.228
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.121
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.068
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.152
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.136
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.136
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.136
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.136
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.136
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.136
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.136
+            }
+        ]
+    },
+    {
+        "Rank": 4,
+        "Level": 7,
+        "Exp": 1980,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 279.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.171
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 139.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.171
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.214
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 9.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.128
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.257
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.257
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.137
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.077
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.171
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.154
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.154
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.154
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.154
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.154
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.154
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.154
+            }
+        ]
+    },
+    {
+        "Rank": 4,
+        "Level": 8,
+        "Exp": 2430,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 311.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.19
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 155.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.19
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.238
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 10.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.143
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.286
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.286
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.152
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.085
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.19
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.171
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.171
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.171
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.171
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.171
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.171
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.171
+            }
+        ]
+    },
+    {
+        "Rank": 4,
+        "Level": 9,
+        "Exp": 3090,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 343.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.21
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 171.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.21
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.262
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 12.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.157
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.315
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.315
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.168
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.094
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.21
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.189
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.189
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.189
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.189
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.189
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.189
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.189
+            }
+        ]
+    },
+    {
+        "Rank": 4,
+        "Level": 10,
+        "Exp": 3840,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 374.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.229
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 187.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.229
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.286
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 13.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.172
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.344
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.344
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.183
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.103
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.229
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.206
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.206
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.206
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.206
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.206
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.206
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.206
+            }
+        ]
+    },
+    {
+        "Rank": 4,
+        "Level": 11,
+        "Exp": 4760,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 406.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.248
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 203.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.248
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.311
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 14.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.186
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.373
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.373
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.199
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.111
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.248
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.223
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.223
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.223
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.223
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.223
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.223
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.223
+            }
+        ]
+    },
+    {
+        "Rank": 4,
+        "Level": 12,
+        "Exp": 5900,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 438.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.268
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 219.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.268
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.335
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 15.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.201
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.402
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.402
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.214
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.12
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.268
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.241
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.241
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.241
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.241
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.241
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.241
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.241
+            }
+        ]
+    },
+    {
+        "Rank": 4,
+        "Level": 13,
+        "Exp": 0,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 469.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.287
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 234.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.287
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.359
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 16.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.215
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.431
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.431
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.23
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.129
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.287
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.258
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.258
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.258
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.258
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.258
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.258
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.258
+            }
+        ]
+    },
+    {
+        "Rank": 5,
+        "Level": 1,
+        "Exp": 560,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 112.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.069
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 56.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.069
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.086
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 4.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.052
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.104
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.103
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.055
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.031
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.069
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.062
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.062
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.062
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.062
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.062
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.062
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.062
+            }
+        ]
+    },
+    {
+        "Rank": 5,
+        "Level": 2,
+        "Exp": 800,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 152.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.093
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 76.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.093
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.116
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 5.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.07
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.14
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.139
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.074
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.041
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.093
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.083
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.083
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.083
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.083
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.083
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.083
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.083
+            }
+        ]
+    },
+    {
+        "Rank": 5,
+        "Level": 3,
+        "Exp": 1040,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 191.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.117
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 95.9
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.117
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.146
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 6.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.088
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.176
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.176
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.094
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.052
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.117
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.105
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.105
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.105
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.105
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.105
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.105
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.105
+            }
+        ]
+    },
+    {
+        "Rank": 5,
+        "Level": 4,
+        "Exp": 1360,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 231.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.141
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 115.7
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.141
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.177
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 8.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.106
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.212
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.212
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.113
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.063
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.141
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.127
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.127
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.127
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.127
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.127
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.127
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.127
+            }
+        ]
+    },
+    {
+        "Rank": 5,
+        "Level": 5,
+        "Exp": 1680,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 270.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.165
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 135.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.165
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.207
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 9.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.124
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.248
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.248
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.132
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.074
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.165
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.149
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.149
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.149
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.149
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.149
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.149
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.149
+            }
+        ]
+    },
+    {
+        "Rank": 5,
+        "Level": 6,
+        "Exp": 2060,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 310.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.19
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 155.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.19
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.237
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 11.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.142
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.285
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.285
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.152
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.085
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.19
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.171
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.171
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.171
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.171
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.171
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.171
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.171
+            }
+        ]
+    },
+    {
+        "Rank": 5,
+        "Level": 7,
+        "Exp": 2640,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 349.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.214
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 174.9
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.214
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.267
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 12.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.16
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.321
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.321
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.171
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.096
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.214
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.192
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.192
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.192
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.192
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.192
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.192
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.192
+            }
+        ]
+    },
+    {
+        "Rank": 5,
+        "Level": 8,
+        "Exp": 3240,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 389.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.238
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 194.7
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.238
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.298
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 13.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.178
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.357
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.357
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.19
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.107
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.238
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.214
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.214
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.214
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.214
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.214
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.214
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.214
+            }
+        ]
+    },
+    {
+        "Rank": 5,
+        "Level": 9,
+        "Exp": 4120,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 429.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.262
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 214.5
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.262
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.328
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 15.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.196
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.393
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.393
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.21
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.118
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.262
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.236
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.236
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.236
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.236
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.236
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.236
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.236
+            }
+        ]
+    },
+    {
+        "Rank": 5,
+        "Level": 10,
+        "Exp": 5120,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 468.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.286
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 234.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.286
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.358
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 16.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.215
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.43
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.43
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.229
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.129
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.286
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.258
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.258
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.258
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.258
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.258
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.258
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.258
+            }
+        ]
+    },
+    {
+        "Rank": 5,
+        "Level": 11,
+        "Exp": 6350,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 508.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.311
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 254.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.311
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.388
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 18.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.233
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.466
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.466
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.248
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.139
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.311
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.279
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.279
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.279
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.279
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.279
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.279
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.279
+            }
+        ]
+    },
+    {
+        "Rank": 5,
+        "Level": 12,
+        "Exp": 8030,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 547.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.335
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 273.7
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.335
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.419
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 19.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.251
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.502
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.502
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.268
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.15
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.335
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.301
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.301
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.301
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.301
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.301
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.301
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.301
+            }
+        ]
+    },
+    {
+        "Rank": 5,
+        "Level": 13,
+        "Exp": 10320,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 587.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.359
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 293.5
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.359
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.449
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 20.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.269
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.539
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.539
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.287
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.161
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.359
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.323
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.323
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.323
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.323
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.323
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.323
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.323
+            }
+        ]
+    },
+    {
+        "Rank": 5,
+        "Level": 14,
+        "Exp": 12960,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 626.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.383
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 313.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.383
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.479
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 22.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.287
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.575
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.575
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.306
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.172
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.383
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.345
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.345
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.345
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.345
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.345
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.345
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.345
+            }
+        ]
+    },
+    {
+        "Rank": 5,
+        "Level": 15,
+        "Exp": 15720,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 666.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.407
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 333.0
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.407
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.509
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 23.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.305
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.611
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.611
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.326
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.183
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.407
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.367
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.367
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.367
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.367
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.367
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.367
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.367
+            }
+        ]
+    },
+    {
+        "Rank": 5,
+        "Level": 16,
+        "Exp": 0,
+        "AddProps": [
+            {
+                "PropType": "FIGHT_PROP_HP",
+                "Value": 705.0
+            },
+            {
+                "PropType": "FIGHT_PROP_HP_PERCENTAGE",
+                "Value": 0.432
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK",
+                "Value": 352.7
+            },
+            {
+                "PropType": "FIGHT_PROP_ATK_PERCENTAGE",
+                "Value": 0.432
+            },
+            {
+                "PropType": "FIGHT_PROP_DEF_PERCENTAGE",
+                "Value": 0.54
+            },
+            {
+                "PropType": "FIGHT_PROP_SPD",
+                "Value": 25.0
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_RATE",
+                "Value": 0.324
+            },
+            {
+                "PropType": "FIGHT_PROP_CRIT_DMG",
+                "Value": 0.648
+            },
+            {
+                "PropType": "FIGHT_PROP_BREAK_EFFECT",
+                "Value": 0.648
+            },
+            {
+                "PropType": "FIGHT_PROP_OUTGOING_HEALING_BOOST",
+                "Value": 0.345
+            },
+            {
+                "PropType": "FIGHT_PROP_ENERGY_REGENERATION_RATE",
+                "Value": 0.194
+            },
+            {
+                "PropType": "FIGHT_PROP_EFFECT_HIT_RATE",
+                "Value": 0.432
+            },
+            {
+                "PropType": "FIGHT_PROP_PHYSICAL_DMG_BOOST",
+                "Value": 0.388
+            },
+            {
+                "PropType": "FIGHT_PROP_FIRE_DMG_BOOST",
+                "Value": 0.388
+            },
+            {
+                "PropType": "FIGHT_PROP_ICE_DMG_BOOST",
+                "Value": 0.388
+            },
+            {
+                "PropType": "FIGHT_PROP_WIND_DMG_BOOST",
+                "Value": 0.388
+            },
+            {
+                "PropType": "FIGHT_PROP_LIGHTNING_DMG_BOOST",
+                "Value": 0.388
+            },
+            {
+                "PropType": "FIGHT_PROP_QUANTUM_DMG_BOOST",
+                "Value": 0.388
+            },
+            {
+                "PropType": "FIGHT_PROP_IMAGINARY_DMG_BOOST",
+                "Value": 0.388
+            }
+        ]
+    }
+]
