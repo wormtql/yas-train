@@ -3,4 +3,4 @@ models/
 samples/
 .idea/
 __pycache__/
-**/__pacache__/
+**/__pycache__/
