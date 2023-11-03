@@ -83,7 +83,7 @@ def train():
 
         transforms.RandomApply([
             transforms.RandomCrop(size=(31, 383)),
-            transforms.Resize((32, 384)),
+            transforms.Resize((32, 384), antialias=True),
             ], p=0.5),
 
         transforms.RandomApply([AddGaussianNoise(mean=0, std=1/255)], p=0.5),
