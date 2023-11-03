@@ -70,7 +70,8 @@ def train():
     #     out_channels=len(index_to_word)
     # ).to(device)
     if config["pretrain"]:
-        net.load_state_dict(torch.load(f"models/{config['pretrain_name']}"))
+        # assume the old index_to_word is in "models/index_2_word.json"
+        net.load_can_load(torch.load(f"models/{config['pretrain_name']}"))
 
     data_aug_transform = transforms.Compose([
         transforms.RandomApply([
