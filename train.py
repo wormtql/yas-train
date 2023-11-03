@@ -127,11 +127,11 @@ def train():
 
             cur_time = datetime.datetime.now()
 
-            if (batch + 1) % print_per == 0:
+            if batch % print_per == 0 and batch != 0:
                 tput = batch_size * batch / (cur_time - start_time).total_seconds()
                 print(f"{cur_time} e{epoch} #{batch} tput: {tput} loss: {loss.item()}")
 
-            if (batch + 1) % save_per == 0:
+            if batch % save_per == 0 and batch != 0:
                 print("Validating and checkpointing")
                 rate = validate(net, validate_loader)
                 print(f"{cur_time} rate: {rate * 100}%")
