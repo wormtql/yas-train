@@ -106,8 +106,11 @@ def train():
     print_per = config["print_per"]
     save_per = config["save_per"]
     batch = 0
+    net.freeze_backbone()
     start_time = datetime.datetime.now()
     for epoch in range(epoch):
+        if epoch == config["unfreeze_backbone_epoch"]:
+            net.unfreeze_backbone()
         for x, label in train_loader:
             optimizer.zero_grad()
             target_vector, target_lengths = get_target(label)
