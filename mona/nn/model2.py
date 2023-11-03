@@ -152,3 +152,9 @@ class Model2(nn.Module):
                         else:
                             print(f"fail to load {old_idx2word[i]}")
             self.load_state_dict(model_dict)
+    def freeze_backbone(self):
+        for param in self.cnn.parameters():
+            param.requires_grad = False
+    def unfreeze_backbone(self):
+        for param in self.cnn.parameters():
+            param.requires_grad = True
