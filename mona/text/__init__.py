@@ -1,23 +1,42 @@
 from .artifact_name import artifact_name
-from .stat import stat_name
-from .characters import characters_name
+from .relic_name import relic_name
+from .characters import characters_name_genshin, characters_name_starrail
+from ..config import config
 
 
 lexicon = set({})
-for name in artifact_name:
-    for char in name:
-        lexicon.add(char)
+if config["model_type"] == "Genshin":
+    from .stat_genshin import stat_name
+    for name in artifact_name:
+        for char in name:
+            lexicon.add(char)
 
-for name in stat_name:
-    for char in name:
-        lexicon.add(char)
+    for name in stat_name:
+        for char in name:
+            lexicon.add(char)
 
-for name in characters_name:
-    for char in name:
-        lexicon.add(char)
+    for name in characters_name_genshin:
+        for char in name:
+            lexicon.add(char)
 
-numbers = " '0123456789.+%,/已装备圣遗物"
-# numbers = "'0123456789.+% abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    numbers = " '0123456789.+%,/已装备圣遗物"
+
+elif config["model_type"] == "StarRail":
+    from .stat_starrail import stat_name
+    for name in relic_name:
+        for char in name:
+            lexicon.add(char)
+
+    for name in stat_name:
+        for char in name:
+            lexicon.add(char)
+
+    for name in characters_name_starrail:
+        for char in name:
+            lexicon.add(char)
+
+    numbers = " '0123456789.+%,/已装备遗器"
+
 for char in numbers:
     lexicon.add(char)
 lexicon = sorted(list(lexicon))

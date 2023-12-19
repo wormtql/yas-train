@@ -17,4 +17,10 @@ config = {
     # Generate data online for train/val
     "online_train": True,
     "online_val": True,
+    # Freeze the cnn backbone in the first few epochs
+    # set 0 to disable
+    "unfreeze_backbone_epoch": 400,
+
+    # Select model type: Genshin or StarRail
+    "model_type": "Genshin"
 }

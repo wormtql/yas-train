@@ -70,7 +70,8 @@ def train():
     #     out_channels=len(index_to_word)
     # ).to(device)
     if config["pretrain"]:
-        net.load_state_dict(torch.load(f"models/{config['pretrain_name']}"))
+        # assume the old index_to_word is in "models/index_2_word.json"
+        net.load_can_load(torch.load(f"models/{config['pretrain_name']}"))
 
     data_aug_transform = transforms.Compose([
         transforms.RandomApply([
@@ -83,7 +84,7 @@ def train():
 
         transforms.RandomApply([
             transforms.RandomCrop(size=(31, 383)),
-            transforms.Resize((32, 384)),
+            transforms.Resize((32, 384), antialias=True),
             ], p=0.5),
 
         transforms.RandomApply([AddGaussianNoise(mean=0, std=1/255)], p=0.5),
@@ -105,8 +106,11 @@ def train():
     print_per = config["print_per"]
     save_per = config["save_per"]
     batch = 0
+    net.freeze_backbone()
     start_time = datetime.datetime.now()
     for epoch in range(epoch):
+        if epoch == config["unfreeze_backbone_epoch"]:
+            net.unfreeze_backbone()
         for x, label in train_loader:
             optimizer.zero_grad()
             target_vector, target_lengths = get_target(label)
@@ -127,11 +131,11 @@ def train():
 
             cur_time = datetime.datetime.now()
 
-            if (batch + 1) % print_per == 0:
+            if batch % print_per == 0 and batch != 0:
                 tput = batch_size * batch / (cur_time - start_time).total_seconds()
                 print(f"{cur_time} e{epoch} #{batch} tput: {tput} loss: {loss.item()}")
 
-            if (batch + 1) % save_per == 0:
+            if batch % save_per == 0 and batch != 0:
                 print("Validating and checkpointing")
                 rate = validate(net, validate_loader)
                 print(f"{cur_time} rate: {rate * 100}%")
