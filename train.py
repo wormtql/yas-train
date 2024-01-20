@@ -105,7 +105,7 @@ def train():
     epoch = config["epoch"]
     print_per = config["print_per"]
     save_per = config["save_per"]
-    batch = 0
+    batch = 1
     net.freeze_backbone()
     start_time = datetime.datetime.now()
     for epoch in range(epoch):
@@ -131,11 +131,11 @@ def train():
 
             cur_time = datetime.datetime.now()
 
-            if batch % print_per == 0 and batch != 0:
+            if batch % print_per == 0:
                 tput = batch_size * batch / (cur_time - start_time).total_seconds()
                 print(f"{cur_time} e{epoch} #{batch} tput: {tput} loss: {loss.item()}")
 
-            if batch % save_per == 0 and batch != 0:
+            if batch % save_per == 0:
                 print("Validating and checkpointing")
                 rate = validate(net, validate_loader)
                 print(f"{cur_time} rate: {rate * 100}%")
