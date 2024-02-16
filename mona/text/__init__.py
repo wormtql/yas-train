@@ -35,7 +35,7 @@ elif config["model_type"] == "StarRail":
         for char in name:
             lexicon.add(char)
 
-    numbers = " '0123456789.+%,/已装备遗器"
+    numbers = " '0123456789.+%,/装备中遗器"
 
 for char in numbers:
     lexicon.add(char)

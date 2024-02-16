@@ -43,8 +43,8 @@ if config["model_type"] == "Genshin":
     random_weights = [0.1, 0.05, 0.15, 0.64, 0.02, 0.02, 0.1, 0.2]
 elif config["model_type"] == "StarRail":
     random_funcs = [random_relic_name, random_main_stat_name, random_main_stat_value,
-                    random_sub_stat, random_level, random_relic_count, random_number]
-    random_weights = [0.1, 0.05, 0.15, 0.64, 0.02, 0.1, 0.2]
+                    random_sub_stat, random_level, random_equip, random_relic_count, random_number]
+    random_weights = [0.1, 0.05, 0.15, 0.64, 0.02, 0.02, 0.1, 0.2]
 # random_funcs = [
 #     (random_artifact_name, 0.1),
 #     (random_main_stat_name, 0.05),
