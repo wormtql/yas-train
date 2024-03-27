@@ -29,8 +29,8 @@ def random_artifact_count():
 
 def random_relic_count():
     # Random here, for online learning
-    flag_ac = random.randint(0, 1500)
-    return f"遗器数量{flag_ac}/1500"
+    flag_ac = random.randint(0, 2000)
+    return f"遗器数量{flag_ac}/2000"
 
 def random_number():
     n = random.randint(0, 1000000000)
