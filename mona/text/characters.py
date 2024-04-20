@@ -75,7 +75,14 @@ characters_name_genshin = [
     "菲米尼",
     "芙宁娜",
     "那维莱特",
+    "夏沃蕾",
     "娜维娅",
+    "嘉明",
+    "闲云",
+    "千织",
+    "阿蕾奇诺",
+    "夏洛蒂",
+    "莱欧斯利",
 ]
 
 # Trailblazer is not included
