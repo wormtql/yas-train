@@ -133,7 +133,11 @@ characters_name_starrail = [
     "花火",
     "黑天鹅",
     "黄泉",
+    "知更鸟",
+    "流萤",
     "米沙",
+    "翡翠",
+    "波提欧",
 ]
 
 def random_equip():
