@@ -1,5 +1,6 @@
 import json
 import random
+from mona.text.text_generator import TextGenerator
 
 
 stat_info = {
@@ -192,38 +193,82 @@ def format_value(stat_name, value):
         return temp
 
 
-def random_main_stat_name():
-    position = random.choice(list(main_stat_names.keys()))
-    entry = random.choice(main_stat_names[position])
-    return stat_info[entry]["chs"]
+class StarrailMainStatNameGenerator(TextGenerator):
+    def __init__(self):
+        super(StarrailMainStatNameGenerator, self).__init__("Starrail Main Stat Name")
+
+    def generate_text(self):
+        position = random.choice(list(main_stat_names.keys()))
+        entry = random.choice(main_stat_names[position])
+        return stat_info[entry]["chs"]
+
+    def get_lexicon(self):
+        ret = set()
+        for k in stat_info:
+            for c in stat_info[k]["chs"]:
+                ret.add(c)
+        return ret
 
 
-def random_main_stat_value():
-    position = random.choice(list(main_stat_names.keys()))
-    key = random.choice(main_stat_names[position])
+class StarrailMainStatValueGenerator(TextGenerator):
+    def __init__(self):
+        super(StarrailMainStatValueGenerator, self).__init__("Starrail Main Stat Value")
 
-    star = random.choices(population=[1, 2, 3, 4, 5], weights=[0.05, 0.05, 0.2, 0.2, 0.5], k=1)[0]
-    if star == 5:
-        level = random.randint(0, 15)
-    elif star == 4:
-        level = random.randint(0, 12)
-    elif star == 3:
-        level = random.randint(0, 9)
-    else:
-        level = 0
+    def generate_text(self):
+        position = random.choice(list(main_stat_names.keys()))
+        key = random.choice(main_stat_names[position])
 
-    value = main_stat_map[star][level][key]
+        star = random.choices(population=[1, 2, 3, 4, 5], weights=[0.05, 0.05, 0.2, 0.2, 0.5], k=1)[0]
+        if star == 5:
+            level = random.randint(0, 15)
+        elif star == 4:
+            level = random.randint(0, 12)
+        elif star == 3:
+            level = random.randint(0, 9)
+        else:
+            level = 0
 
-    return format_value(key, value)
+        value = main_stat_map[star][level][key]
+
+        return format_value(key, value)
+
+    def get_lexicon(self):
+        ret = set()
+        for c in " '0123456789.+%,/":
+            ret.add(c)
+        return ret
 
 
-def random_sub_stat():
-    key = random.choice(sub_stat_keys)
-    # 改成生成连续数值。因为原版数据有误差，生成不出777、299等数值
-    value = random.uniform(sub_stat_range[key][0], sub_stat_range[key][1])
-    value_str = format_value(key, value)
-    chs = stat_info[key]["chs"]
+class StarrailSubStatNameGenerator(TextGenerator):
+    def __init__(self):
+        super(StarrailSubStatNameGenerator, self).__init__("Starrail Sub Stat Name")
 
-    # 星穹铁道的词条左右对齐，分别识别名称和数值
-    # 在二者之间随机返回一个
-    return random.choice([chs, value_str])
+    def generate_text(self):
+        key = random.choice(sub_stat_keys)
+        chs = stat_info[key]["chs"]
+        return chs
+
+    def get_lexicon(self):
+        ret = set()
+        for k in stat_info:
+            for c in stat_info[k]["chs"]:
+                ret.add(c)
+        return ret
+
+
+class StarrailSubStatValueGenerator(TextGenerator):
+    def __init__(self):
+        super(StarrailSubStatValueGenerator, self).__init__("Starrail Sub Stat Value")
+
+    def generate_text(self):
+        key = random.choice(sub_stat_keys)
+        # 改成生成连续数值。因为原版数据有误差，生成不出777、299等数值
+        value = random.uniform(sub_stat_range[key][0], sub_stat_range[key][1])
+        value_str = format_value(key, value)
+        return value_str
+
+    def get_lexicon(self):
+        ret = set()
+        for c in " '0123456789.+%,/":
+            ret.add(c)
+        return ret

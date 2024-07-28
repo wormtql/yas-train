@@ -3,19 +3,28 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
 import torchvision.transforms as transforms
+from PIL import ImageFont
 
-from mona.text import index_to_word, word_to_index
-from mona.nn.model import Model
-from mona.nn.svtr import SVTRNet
-from mona.datagen.datagen import generate_image
+from mona.datagen.datagen import DataGen
 from mona.config import config
 from mona.nn import predict as predict_net
 from mona.nn.model2 import Model2
+from mona.text import get_lexicon
 
 import datetime
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
+lexicon = get_lexicon(config["model_type"])
+
+# 4k分辨率最大对应84号字，900p分辨率最小对应18号字
+if config["model_type"] == "Genshin":
+    fonts = [ImageFont.truetype("./assets/genshin.ttf", i) for i in range(15, 90)]
+elif config["model_type"] == "StarRail":
+    fonts = [ImageFont.truetype("./assets/starrail.ttf", i) for i in range(15, 90)]
+datagen = DataGen(config, fonts, lexicon)
+
+print("lexicon size: ", lexicon.lexicon_size())
 
 # a list of target strings
 def get_target(s):
@@ -29,7 +38,7 @@ def get_target(s):
     target_vector = []
     for target in s:
         for char in target:
-            index = word_to_index[char]
+            index = lexicon.word_to_index[char]
             if index == 0:
                 print("error")
             target_vector.append(index)
@@ -47,7 +56,7 @@ def validate(net, validate_loader):
     with torch.no_grad():
         for x, label in validate_loader:
             x = x.to(device)
-            predict = predict_net(net, x)
+            predict = predict_net(net, x, lexicon)
             # print(predict)
             correct += sum([1 if predict[i] == label[i] else 0 for i in range(len(label))])
             total += len(label)
@@ -62,7 +71,7 @@ def train():
 
     # 这是现在在用的model
     # model2就是SVTR（非原版）
-    net = Model2(len(index_to_word), 1).to(device)
+    net = Model2(lexicon.lexicon_size(), 1).to(device)
 
     # net = SVTRNet(
     #     img_size=(32, 384),
@@ -90,10 +99,8 @@ def train():
         transforms.RandomApply([AddGaussianNoise(mean=0, std=1/255)], p=0.5),
     ])
 
-    train_dataset = MyOnlineDataSet(config['train_size']) if config["online_train"] else MyDataSet(
-        torch.load("data/train_x.pt"), torch.load("data/train_label.pt"))
-    validate_dataset = MyOnlineDataSet(config['validate_size']) if config["online_val"] else MyDataSet(
-        torch.load("data/validate_x.pt"), torch.load("data/validate_label.pt"))
+    train_dataset = MyOnlineDataSet(config['train_size'])
+    validate_dataset = MyOnlineDataSet(config['validate_size'])
 
     train_loader = DataLoader(train_dataset, shuffle=True, num_workers=config["dataloader_workers"], batch_size=config["batch_size"],)
     validate_loader = DataLoader(validate_dataset, num_workers=config["dataloader_workers"], batch_size=config["batch_size"])
@@ -106,11 +113,12 @@ def train():
     print_per = config["print_per"]
     save_per = config["save_per"]
     batch = 1
-    net.freeze_backbone()
+    # net.freeze_backbone()
     start_time = datetime.datetime.now()
     for epoch in range(epoch):
         if epoch == config["unfreeze_backbone_epoch"]:
-            net.unfreeze_backbone()
+            pass
+            # net.unfreeze_backbone()
         for x, label in train_loader:
             optimizer.zero_grad()
             target_vector, target_lengths = get_target(label)
@@ -148,25 +156,11 @@ def train():
     for x, label in validate_loader:
         x = x.to(device)
         # predict = net.predict(x)
-        predict = predict_net(net, x)
+        predict = predict_net(net, x, lexicon)
         print("predict:     ", predict[:10])
         print("ground truth:", label[:10])
         break
 
-
-class MyDataSet(Dataset):
-    def __init__(self, x, labels):
-        self.x = x
-        self.labels = labels
-
-    def __len__(self):
-        return len(self.labels)
-
-    def __getitem__(self, index):
-        x = self.x[index]
-        label = self.labels[index]
-
-        return x, label
 
 class AddGaussianNoise(object):
     def __init__(self, mean=0., std=1.):
@@ -189,6 +183,6 @@ class MyOnlineDataSet(Dataset):
 
     def __getitem__(self, index):
         # Generate data online
-        im, text = generate_image()
+        im, text = datagen.generate_image()
         tensor = transforms.ToTensor()(im)
         return tensor, text

@@ -1,6 +1,6 @@
 import json
 import random
-
+from mona.text.text_generator import TextGenerator
 
 stat_info = {
     "FIGHT_PROP_CRITICAL_HURT": {
@@ -176,36 +176,70 @@ def format_value(stat_name, value):
         return temp
 
 
-def random_main_stat_name():
-    position = random.choice(list(main_stat_names.keys()))
-    entry = random.choice(main_stat_names[position])
-    return stat_info[entry]["chs"]
+class GenshinMainStatNameGenerator(TextGenerator):
+    def __init__(self):
+        super(GenshinMainStatNameGenerator, self).__init__("Genshin Main Stat Name")
+
+    def generate_text(self):
+        position = random.choice(list(main_stat_names.keys()))
+        entry = random.choice(main_stat_names[position])
+        return stat_info[entry]["chs"]
+
+    def get_lexicon(self):
+        ret = set()
+        for k in stat_info:
+            for char in stat_info[k]["chs"]:
+                ret.add(char)
+        return ret
 
 
-def random_main_stat_value():
-    position = random.choice(list(main_stat_names.keys()))
-    key = random.choice(main_stat_names[position])
+class GenshinMainStatValueGenerator(TextGenerator):
+    def __init__(self):
+        super(GenshinMainStatValueGenerator, self).__init__("Genshin Main Stat Value")
 
-    star = random.choices(population=[1, 2, 3, 4, 5], weights=[0.05, 0.05, 0.2, 0.2, 0.5], k=1)[0]
-    if star == 5:
-        level = random.randint(0, 20)
-    elif star == 4:
-        level = random.randint(0, 16)
-    elif star == 3:
-        level = random.randint(0, 16)
-    else:
-        level = 0
+    def generate_text(self):
+        position = random.choice(list(main_stat_names.keys()))
+        key = random.choice(main_stat_names[position])
 
-    value = main_stat_map[star][level][key]
+        star = random.choices(population=[1, 2, 3, 4, 5], weights=[0.05, 0.05, 0.2, 0.2, 0.5], k=1)[0]
+        if star == 5:
+            level = random.randint(0, 20)
+        elif star == 4:
+            level = random.randint(0, 16)
+        elif star == 3:
+            level = random.randint(0, 16)
+        else:
+            level = 0
 
-    return format_value(key, value)
+        value = main_stat_map[star][level][key]
+
+        return format_value(key, value)
+
+    def get_lexicon(self):
+        ret = set()
+        for char in " '0123456789.+%,/":
+            ret.add(char)
+        return ret
 
 
-def random_sub_stat():
-    key = random.choice(sub_stat_keys)
-    # 改成生成连续数值。因为原版数据有误差，生成不出777、299等数值
-    value = random.uniform(sub_stat_range[key][0], sub_stat_range[key][1])
-    value_str = format_value(key, value)
-    chs = stat_info[key]["chs"]
+class GenshinSubStatGenerator(TextGenerator):
+    def __init__(self):
+        super(GenshinSubStatGenerator, self).__init__("Genshin Sub Stat")
 
-    return chs + "+" + value_str
+    def generate_text(self):
+        key = random.choice(sub_stat_keys)
+        # 改成生成连续数值。因为原版数据有误差，生成不出777、299等数值
+        value = random.uniform(sub_stat_range[key][0], sub_stat_range[key][1])
+        value_str = format_value(key, value)
+        chs = stat_info[key]["chs"]
+
+        return chs + "+" + value_str
+
+    def get_lexicon(self):
+        ret = set()
+        for k in stat_info:
+            for char in stat_info[k]["chs"]:
+                ret.add(char)
+        for char in " '0123456789.+%,/":
+            ret.add(char)
+        return ret

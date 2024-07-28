@@ -1,5 +1,5 @@
+from mona.text.text_generator import TextGenerator
 import random
-from ..config import config
 
 # Taveller is not included
 characters_name_genshin = [
@@ -85,63 +85,21 @@ characters_name_genshin = [
     "莱欧斯利",
 ]
 
-# Trailblazer is not included
-# https://github.com/Mar-7th/StarRailRes/blob/master/index_new/cn/characters.json
-characters_name_starrail = [
-    "三月七",
-    "丹恒",
-    "姬子",
-    "瓦尔特",
-    "卡芙卡",
-    "银狼",
-    "阿兰",
-    "艾丝妲",
-    "黑塔",
-    "布洛妮娅",
-    "希儿",
-    "希露瓦",
-    "杰帕德",
-    "娜塔莎",
-    "佩拉",
-    "克拉拉",
-    "桑博",
-    "虎克",
-    "玲可",
-    "卢卡",
-    "托帕&账账",
-    "青雀",
-    "停云",
-    "罗刹",
-    "景元",
-    "刃",
-    "素裳",
-    "驭空",
-    "符玄",
-    "彦卿",
-    "桂乃芬",
-    "白露",
-    "镜流",
-    "丹恒•饮月",
-    "雪衣",
-    "寒鸦",
-    "藿藿",
-    "加拉赫",
-    "银枝",
-    "阮•梅",
-    "砂金",
-    "真理医生",
-    "花火",
-    "黑天鹅",
-    "黄泉",
-    "知更鸟",
-    "流萤",
-    "米沙",
-    "翡翠",
-    "波提欧",
-]
 
-def random_equip():
-    if config["model_type"] == "Genshin":
+class GenshinCharacterEquipTextGenerator(TextGenerator):
+    def __init__(self):
+        super(GenshinCharacterEquipTextGenerator, self).__init__("Genshin Equip Name")
+
+    def generate_text(self):
         return random.choice(characters_name_genshin) + "已装备"
-    elif config["model_type"] == "StarRail":
-        return "装备中"
+
+    def get_lexicon(self):
+        ret = set()
+        for name in characters_name_genshin:
+            for char in name:
+                ret.add(char)
+
+        for char in "已装备":
+            ret.add(char)
+
+        return ret

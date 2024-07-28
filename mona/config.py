@@ -13,13 +13,13 @@ config = {
     "pretrain_name": "chs_all.pt",
 
     # Set according to your CPU
-    "dataloader_workers": 1,
+    "dataloader_workers": 6,
     # Generate data online for train/val
     "online_train": True,
     "online_val": True,
     # Freeze the cnn backbone in the first few epochs
     # set 0 to disable
-    "unfreeze_backbone_epoch": 400,
+    "unfreeze_backbone_epoch": 0,
 
     # Select model type: Genshin or StarRail
     "model_type": "Genshin"

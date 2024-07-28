@@ -1,4 +1,5 @@
 import random
+from mona.text.text_generator import TextGenerator
 
 # https://github.com/Mar-7th/StarRailRes/blob/master/index_new/cn/relics.json
 relic_name = [
@@ -152,6 +153,16 @@ relic_name = [
     '铸炼宫的焰轮天绸',
 ]
 
+class StarrailRelicNameGenerator(TextGenerator):
+    def __init__(self):
+        super(StarrailRelicNameGenerator, self).__init__("Starrail Relic Name")
 
-def random_relic_name():
-    return random.choice(relic_name)
+    def generate_text(self):
+        return random.choice(relic_name)
+
+    def get_lexicon(self):
+        ret = set()
+        for name in relic_name:
+            for c in name:
+                ret.add(c)
+        return ret

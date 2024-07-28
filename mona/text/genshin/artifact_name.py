@@ -1,4 +1,5 @@
 import random
+from mona.text.text_generator import TextGenerator
 
 artifact_name = [
     '磐陀裂生之花',
@@ -255,5 +256,16 @@ artifact_name = [
 ]
 
 
-def random_artifact_name():
-    return random.choice(artifact_name)
+class GenshinArtifactTextGenerator(TextGenerator):
+    def __init__(self):
+        super(GenshinArtifactTextGenerator, self).__init__("Genshin Artifact Text Generator")
+
+    def generate_text(self):
+        return random.choice(artifact_name)
+
+    def get_lexicon(self):
+        ret = set()
+        for name in artifact_name:
+            for char in name:
+                ret.add(char)
+        return ret

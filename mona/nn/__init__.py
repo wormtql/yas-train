@@ -1,5 +1,4 @@
 import torch
-from mona.text import index_to_word
 
 
 def arr_to_string(arr):
@@ -11,7 +10,7 @@ def arr_to_string(arr):
         last_word = word
     return temp
 
-def predict(net, x):
+def predict(net, x, lexicon):
     y = net(x)
     # y = torch.transpose(y, 0, 1)
     batch_size = x.size(0)
@@ -32,7 +31,7 @@ def predict(net, x):
     for i in range(batch_size):
         words = []
         for j in indices[i]:
-            word = index_to_word[j.item()]
+            word = lexicon.index_to_word[j.item()]
             words.append(word)
 
         ans.append(arr_to_string(words))
