@@ -1,5 +1,6 @@
 from mona.text.genshin import *
 from mona.text.starrail import *
+from mona.text.wuthering_waves import *
 from mona.text.common import *
 from mona.text.lexicon import Lexicon
 
@@ -52,6 +53,29 @@ def construct_starrail_lexicon():
     return weighted_generator
 
 
+def construct_wuthering_waves_lexicon():
+    random_echo_name = WWEchoesNameGenerator()
+    random_main_stat_name = WWMainStatNameGenerator()
+    random_main_stat_value = WWMainStatValueGenerator()
+    random_sub_stat_name = WWSubStatNameGenerator()
+    random_sub_stat_value = WWSubStatValueGenerator()
+    random_level = WWEchosLevelGenerator()
+    random_echoes_count = WWEchoesCountGenerator()
+    random_number_generator = RandomNumberTextGenerator()
+
+    weighted_generator = WeightedTextGenerator()
+    weighted_generator.add_entry(0.1, random_echo_name)
+    weighted_generator.add_entry(0.05, random_main_stat_name)
+    weighted_generator.add_entry(0.32, random_main_stat_value)
+    weighted_generator.add_entry(0.1, random_sub_stat_name)
+    weighted_generator.add_entry(0.1, random_sub_stat_value)
+    weighted_generator.add_entry(0.02, random_level)
+    weighted_generator.add_entry(0.1, random_echoes_count)
+    weighted_generator.add_entry(0.2, random_number_generator)
+
+    return weighted_generator
+
+
 def construct_all_lexicon():
     genshin = construct_genshin_lexicon()
     starrail = construct_starrail_lexicon()
@@ -68,6 +92,8 @@ def get_lexicon(name: str):
         g = construct_genshin_lexicon()
     elif name.lower() == "starrail":
         g = construct_starrail_lexicon()
+    elif name.lower() == "wutheringwaves":
+        g = construct_wuthering_waves_lexicon()
     else:
         g = construct_all_lexicon()
 
