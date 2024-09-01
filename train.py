@@ -23,7 +23,7 @@ if config["model_type"] == "Genshin":
 elif config["model_type"] == "StarRail":
     fonts = [ImageFont.truetype("./assets/starrail.ttf", i) for i in range(15, 90)]
 elif config["model_type"] == "WutheringWaves":
-    fonts = [ImageFont.truetype("./assets/starrail.ttf", i) for i in range(15, 90)]
+    fonts = [ImageFont.truetype("./assets/wuthering_waves/ARFangXinShuH7GBK-HV.ttf", i) for i in range(15, 90)]
 datagen = DataGen(config, fonts, lexicon)
 
 print("lexicon size: ", lexicon.lexicon_size())

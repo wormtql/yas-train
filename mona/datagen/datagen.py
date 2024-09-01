@@ -1,6 +1,7 @@
 import random
 
 from PIL import Image, ImageFont, ImageDraw
+import numpy as np
 
 from mona.datagen.pre_process import pre_process
 
@@ -19,6 +20,17 @@ def rand_color_2():
     b = random.randint(0, 100)
 
     return r, g, b
+
+
+class OnnxDataGen:
+    def __init__(self, config):
+        self.config = config
+
+    def generate_image(self):
+        w = self.config["train_width"]
+        h = self.config["height"]
+        # img = Image.new("RGB", (w, h), (0, 0, 0))
+        return np.zeros((1, 1, w, h))
 
 
 class DataGen:

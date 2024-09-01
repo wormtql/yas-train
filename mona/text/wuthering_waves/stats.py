@@ -4,7 +4,7 @@ from mona.text.text_generator import TextGenerator
 
 
 main_stat_names = [
-    "暴击率",
+    "暴击",
     "暴击伤害",
     "冷凝伤害加成",
     "热熔伤害加成",
@@ -66,7 +66,7 @@ class WWMainStatValueGenerator(TextGenerator):
 
 
 sub_stat_names = [
-    "暴击率",
+    "暴击",
     "暴击伤害",
     "攻击",
     "生命",

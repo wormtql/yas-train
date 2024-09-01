@@ -4,11 +4,11 @@
 import torch
 from torch.utils.data import Dataset, DataLoader
 import torchvision.transforms as transforms
+from PIL import ImageFont
 
-from mona.text import index_to_word
-from mona.nn.model import Model
+from mona.text import get_lexicon
 from mona.nn.model2 import Model2
-from mona.datagen.datagen import generate_image
+from mona.datagen.datagen import DataGen
 from mona.config import config
 from mona.nn import predict as predict_net
 
@@ -21,6 +21,14 @@ import argparse
 
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
+lexicon = get_lexicon(config["model_type"])
+if config["model_type"] == "Genshin":
+    fonts = [ImageFont.truetype("./assets/genshin.ttf", i) for i in range(15, 90)]
+elif config["model_type"] == "StarRail":
+    fonts = [ImageFont.truetype("./assets/starrail.ttf", i) for i in range(15, 90)]
+elif config["model_type"] == "WutheringWaves":
+    fonts = [ImageFont.truetype("./assets/wuthering_waves/ARFangXinShuH7GBK-HV.ttf", i) for i in range(15, 90)]
+datagen = DataGen(config, fonts, lexicon)
 
 
 class MyOnlineDataSet(Dataset):
@@ -31,7 +39,7 @@ class MyOnlineDataSet(Dataset):
         return self.size
 
     def __getitem__(self, index):
-        im, text = generate_image()
+        im, text = datagen.generate_image()
         tensor = transforms.ToTensor()(im)
         return tensor, text
 
@@ -40,7 +48,7 @@ if __name__ == "__main__":
     # crnn
     # net = Model(len(index_to_word)).to(device)
     # svtr
-    net = Model2(len(index_to_word), 1).to(device)
+    net = Model2(lexicon.lexicon_size(), 1).to(device)
     # net = Model2(len(index_to_word), 1, hidden_channels=128, num_heads=4).to(device)
 
     parser = argparse.ArgumentParser(
@@ -53,7 +61,7 @@ if __name__ == "__main__":
 
     print(f"Validating {model_file_path}")
     net.load_state_dict(torch.load(
-        model_file_path, map_location=torch.device(device)))
+        model_file_path, map_location=torch.device(device), weights_only=True))
 
     batch_size = 32
     max_plot_incorrect_sample = 100
@@ -71,7 +79,7 @@ if __name__ == "__main__":
         for x, label in validate_loader:
             x = x.to(device)
             # print(label)
-            predict = predict_net(net, x)
+            predict = predict_net(net, x, lexicon)
             for i in range(len(label)):
                 pred = predict[i]
                 truth = label[i]

@@ -10,6 +10,7 @@ def arr_to_string(arr):
         last_word = word
     return temp
 
+
 def predict(net, x, lexicon):
     y = net(x)
     # y = torch.transpose(y, 0, 1)

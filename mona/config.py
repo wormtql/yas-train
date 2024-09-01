@@ -22,6 +22,6 @@ config = {
     "unfreeze_backbone_epoch": 0,
 
     # Select model type: Genshin or StarRail
-    # "model_type": "Genshin"
-    "model_type": "WutheringWaves"
+    "model_type": "Genshin"
+    # "model_type": "WutheringWaves"
 }
