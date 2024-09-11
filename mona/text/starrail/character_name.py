@@ -76,4 +76,4 @@ class StarrailCharacterEquipGenerator(TextGenerator):
                 ret.add(char)
         for c in "装备中":
             ret.add(c)
-        return c
+        return ret
