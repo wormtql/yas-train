@@ -151,6 +151,12 @@ relic_name = [
     # 劫火莲灯铸炼宫
     '铸炼宫的莲华灯芯',
     '铸炼宫的焰轮天绸',
+    # 沉陆海域露莎卡
+    '露莎卡的水朽苍都',
+    '露莎卡的双生航道',
+    # 奇想蕉乐园
+    '蕉乐园的蕉芯广场',
+    '蕉乐园的模因线缆',
 ]
 
 class StarrailRelicNameGenerator(TextGenerator):
