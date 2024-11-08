@@ -59,6 +59,7 @@ characters_name_starrail = [
     "米沙",
     "翡翠",
     "波提欧",
+    "乱破",
 ]
 
 
