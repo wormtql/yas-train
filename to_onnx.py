@@ -5,6 +5,7 @@ import onnx
 import onnxruntime
 import numpy as np
 import json
+import sys
 
 from mona.nn.model2 import Model2
 # from mona.text import word_to_index, index_to_word
@@ -12,12 +13,16 @@ from mona.datagen import OnnxDataGen
 from mona.config import config
 from mona.text.construct_lexicon import get_lexicon
 
+if len(sys.argv) == 1:
+    print("Please input a model path")
+    exit(0)
 
 lexicon = get_lexicon(config["model_type"])
 lexicon_size = lexicon.lexicon_size()
 
 # name = "model_training.pt"
-name = "model_acc100-epoch34.pt"
+# name = "model_acc100-epoch15.pt"
+name = sys.argv[1]
 onnx_name = name.rsplit(".", 2)[0] + ".onnx"
 # net = Model(len(word_to_index))
 net = Model2(lexicon_size, in_channels=1)

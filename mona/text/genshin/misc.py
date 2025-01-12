@@ -8,8 +8,9 @@ class GenshinArtifactCountGenerator(TextGenerator):
         super(GenshinArtifactCountGenerator, self).__init__("Genshin Artifact Count")
 
     def generate_text(self):
-        flag_ac = random.randint(0, 1800)
-        return f"圣遗物 {flag_ac}/1800"
+        flag_ac = random.randint(0, 2100)
+        # total_count = random.randint(1000, 9999)
+        return f"圣遗物 {flag_ac}/{2100}"
 
     def get_lexicon(self):
         ret = set()
