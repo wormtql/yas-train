@@ -40,6 +40,12 @@ characters_name_starrail = [
     "雪衣",
     "寒鸦",
     "藿藿",
+    "椒丘",
+    "飞霄",
+    "云璃",
+    "灵砂",
+    "貊泽",
+    "三月七",
     "加拉赫",
     "银枝",
     "阮•梅",
@@ -53,6 +59,7 @@ characters_name_starrail = [
     "米沙",
     "翡翠",
     "波提欧",
+    "乱破",
 ]
 
 
@@ -70,4 +77,4 @@ class StarrailCharacterEquipGenerator(TextGenerator):
                 ret.add(char)
         for c in "装备中":
             ret.add(c)
-        return c
+        return ret
