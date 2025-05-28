@@ -23,8 +23,8 @@ class StarrailRelicCountGenerator(TextGenerator):
 
     def generate_text(self):
         # Random here, for online learning
-        flag_ac = random.randint(0, 2000)
-        return f"遗器数量{flag_ac}/2000"
+        flag_ac = random.randint(0, 3000)
+        return f"遗器数量{flag_ac}/3000"
 
     def get_lexicon(self):
         ret = set()
